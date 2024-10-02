@@ -1,0 +1,6 @@
+<div class="home">
+    <%- partial('partials/avatar') %>
+    <%- partial('partials/menu', { menu: theme.menu }) %>
+    <%- partial('partials/article-list', { posts: page.posts }) %>
+    <%- partial('partials/page_switcher', { page: page, path: '/' }) %>
+</div>
